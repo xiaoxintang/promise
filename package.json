@@ -1,0 +1,17 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "promises-aplus-tests": "*"
+  }
+}
